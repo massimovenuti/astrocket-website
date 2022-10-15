@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Barlow, sans-serif;
+}
+
+:root {
+  --theme-red: #ff2842;
+  --theme-red-hover: #f31b34;
+  --theme-red-active: #e61931;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  @apply select-none;
+}
